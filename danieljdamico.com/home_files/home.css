@@ -1,6 +1,60 @@
 .style {
     padding: 4px;
 }
+.navbar {
+	font-family: Futura, 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+	font-size: .7em;
+	color: #C1C1C1;
+	line-height: 25px;
+	text-align: center;
+	padding: 0px;
+	background-image: url(teaching_files/PhotoGray_nav_bg.png);
+	_background-image: url(teaching_files/PhotoGray_nav_bg.jpg);
+	background-repeat: repeat-y;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.current-page a {
+	text-decoration: none;
+	color: #000;
+	text-shadow: 0px -1px 2px #7E7E7E;
+}
+.noncurrent-page  a {
+	text-decoration: none;
+	color: #C1C1C1;
+	text-shadow: 0px -1px 2px #333;
+}
+.navbar-list {
+  list-style: none; /* remove bullets */
+  padding: 0;
+  margin: 0;
+  display: inline-flex; /* horizontal layout, centered */
+  gap: 1.5em; /* space between links */
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: black; /* pick whatever */
+  font-family: sans-serif;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+.navbar ul li {
+	display: inline; 
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+}
+.navbar-list li a:hover {
+  color: red; /* your old hover effect */
+}
+
 .paragraph_style {
     color: rgb(255, 255, 255);
     font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
